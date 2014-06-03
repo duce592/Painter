@@ -1,0 +1,181 @@
+@import url(http://fonts.googleapis.com/css?family=Peralta);
+
+
+html {
+	height: 100%;
+}
+
+body {
+	background: #1c1c1c;
+	height: 100%;
+}
+
+.container {
+	height: 100%;
+}
+
+#title {
+	margin-top: 75px;
+	color: #fff;
+	text-align: center;
+	font-family: 'Peralta', cursive;
+	font-size: 60px;
+}
+
+#sideBar {
+	margin-top: 75px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #2B2B2B;
+	font-size: 23px;
+	text-align: center;
+}
+
+.clickable {
+	margin-left: 22px;
+	margin-right: 22px;
+	padding: 0px;
+	height: 70px;
+}
+
+#blueBox {
+	margin-left: 24px;
+	background: blue;
+	color: #2B2B2B;
+}
+
+#redBox {
+	background: red;
+	color: #2B2B2B;
+}
+
+#whiteBox {
+	background: white;
+	color: #2B2B2B;
+}
+
+#yellowBox {
+	background: yellow;
+	color: #2B2B2B;
+}
+
+#canvas {
+	margin-top: 65px;
+	padding: 0px;
+	height: 340px;
+	border: 1px solid #000;
+}
+
+.box {
+	float: left;
+}
+
+
+/* Rows */
+.row-1 {
+	height: 17%;
+}
+
+.row-2 {
+	height: 40%;
+}
+
+.row-3 {
+	height: 18%;
+}
+
+.row-4 {
+	height: 25%;
+}
+
+
+/* Columns */
+.col-1 {
+	width: 17%;
+}
+
+.col-2 {
+	width: 45%;
+}
+
+.col-3 {
+	width: 15%;
+}
+
+.col-4 {
+	width: 23%;
+}
+
+
+
+	/* classes for borders by position*/
+
+.topLeftP {
+	border-right: 7px solid #000;
+	border-bottom: 7px solid #000;
+}
+
+.topP {
+	border-left: 7px solid #000;
+	border-right: 7px solid #000;
+	border-bottom: 7px solid #000;
+}
+
+.topRightP {
+	border-left: 7px solid #000;
+	border-bottom: 7px solid #000;
+}
+
+.centeralP {
+	border: 7px solid #000;
+}
+
+.leftP {
+	border-top: 7px solid #000;
+	border-right: 7px solid #000;
+	border-bottom: 7px solid #000;
+}
+
+.rightP {
+	border-top: 7px solid #000;
+	border-left: 7px solid #000;
+	border-bottom: 7px solid #000;
+}
+
+.bottomLeftP {
+	border-top: 7px solid #000;
+	border-right: 7px solid #000;
+}
+
+.bottomP {
+	border-top: 7px solid #000;
+	border-left: 7px solid #000;
+	border-right: 7px solid #000;
+}
+
+.bottomRightP {
+	border-top: 7px solid #000;
+	border-left: 7px solid #000;
+}
+
+	/* class to add selector */
+.selector {
+	border:;
+}
+
+	/* classes to add for colors */
+.blue {
+	background-color: #0000ff;
+}
+
+.red {
+	background-color: #ff0000;
+}
+
+.yellow {
+	background-color: #ffff00;
+}
+
+.white {
+	background-color: #ffffff;
+}
